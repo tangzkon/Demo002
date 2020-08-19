@@ -26,4 +26,9 @@ public class HelloController {
     public String welcome() {
         return "Welcome to SpringBoot!";
     }
+
+    @RequestMapping("/other")
+    public String other() {
+        return "this is other branch!";
+    }
 }
