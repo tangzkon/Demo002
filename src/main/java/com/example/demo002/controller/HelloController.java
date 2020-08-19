@@ -22,5 +22,8 @@ public class HelloController {
         return helloService.GetHelloEntities();
     }
 
-
+    @RequestMapping("/do")
+    public String welcome() {
+        return "Welcome to SpringBoot!";
+    }
 }
